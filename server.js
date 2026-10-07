@@ -6,6 +6,6 @@ try{
     app.listen(3000);
     console.log("server running")
 }catch(err) {
-    console.log("ERROR IN SERVER RESTART")
+    console.log("ERROR IN SERVER RESTART ,err")
     process.exit(1);
 }

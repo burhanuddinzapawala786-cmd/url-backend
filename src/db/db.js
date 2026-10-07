@@ -5,7 +5,7 @@ try{
     await mongoose.connect("mongodb://127.0.0.1:27017/urlShortenerDB");
     console.log("DB CONNECTED");
 }catch(err) {
-    console.log("ERROR IN DB CONNECTION");
+    console.log("ERROR IN DB CONNECTION" , err);
     process.exit(1);
 }
 }
